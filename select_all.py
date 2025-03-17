@@ -1,7 +1,7 @@
-# from main import session
-# from models import Course, Student
+from main import session
+from models import Course, Student
 
-# courses = session.query(Course).all()
-# for course in courses:
-#     print(course)
+courses = session.query(Course).all()
+for course in courses:
+    print(course)
 

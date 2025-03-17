@@ -1,7 +1,7 @@
-# from models import Base
+from models import Base
 
-# from connect import engine
+from connect import engine
 
-# print("Creating tables......")
+print("Creating tables......")
 
-# Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)

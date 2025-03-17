@@ -1,4 +1,4 @@
-# from connect import engine
-# from sqlalchemy.orm import Session
+from connect import engine
+from sqlalchemy.orm import Session
 
-# session = Session(bind=engine)
+session = Session(bind=engine)
